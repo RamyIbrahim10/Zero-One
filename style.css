@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #202731;
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: #01294D;
+    text-align: right;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-nav {
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 15px; /* Adjust as needed */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #03AEC6; /* Change to your desired color */
+  }
+  
+  
+  @media (max-width: 991px) {
+    .navbar-nav {
+      text-align: right;
+    }
+  }
+.rtl {
+    direction: rtl;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%2303AEC6' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    border: 5px solid #03AEC6; /* Border color */
+    border-radius: 3px; /* Adjust border radius as needed */
+    padding: 20px;
+    transform: scaleX(-1);;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 700px;
+    padding: 80px 20vw;
+}
+.sec1{
+    
+    background: #01294D;
+    color: white;
+    font-size: 40px;
+
+}
+.sec2{
+                
+    background: #FDFDFD;
+    padding: 0px 10vw 150px;
+
+}
+.sec3{
+    background: #03AEC6;
+    direction: rtl;
+    text-align: right;
+    min-height: 800px;
+
+}
+.sec4{
+    
+    background: #1b2e3b;
+    
+}
+.wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(168% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.wave1 .shape-fill {
+    fill: #FDFDFD;
+}
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(168% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.wave2 .shape-fill {
+    fill: #03AEC6;
+}   
+.wave3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(168% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.wave3 .shape-fill {
+    fill: #1b2e3b;
+} 
+.wave4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave4 svg {
+    position: relative;
+    display: block;
+    width: calc(168% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.wave4 .shape-fill {
+    fill: #03AEC6;
+} 
+
+/* This for the Service Boxes styles */
+.servicebox {
+    background-color: #01294D;
+    border: 2px solid #5c7d8e;
+    border-radius: 15px;
+    color:#FDFDFD;
+    text-align: right;
+    font-size: 10px;
+    padding:15px;
+    margin:10px
+}
